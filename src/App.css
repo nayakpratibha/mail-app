@@ -1,0 +1,54 @@
+.nav-header {
+  background: black;
+  height: 8vh;
+}
+.heading {  
+  color: white !important;
+}
+.nav-subhheader {
+	background: #03a9f440;
+	height: 15vh;
+    width: 100%
+}
+
+.sidebar {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        top: 0;
+        width: 19vw !important;
+        min-height:82vh;
+        z-index: 100;
+        box-shadow: inset -1px 0 0 rgba(0, 0, 0, .1);
+ }
+.search {
+    border: none;
+    background-color: aliceblue !important;
+    margin-top:8vh
+}
+.flex-column {
+    display: flex;
+    flex-wrap:wrap;
+}
+.inbox-items:hover {
+  background-color: aliceblue;
+}
+.inbox-items {
+    width: 25em;
+}
+.fav-icons {
+    float: right;
+}
+.btn-outline-primary {
+    margin-left:9px;
+}
+.mail-box {
+    width: 40em;
+    min-height:82vh; 
+}
+a.nav-link {
+    display: inline-block
+}
+.filer {
+    float:right;
+}
